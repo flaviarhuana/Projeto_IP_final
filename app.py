@@ -11,6 +11,10 @@ def ola():
 def sobre_equipe():
     return render_template('sobre.html')
 
+@app.route('/glossario')
+def glossario():
+    return render_template('glossario.html')
+
 
 app.run()
 
